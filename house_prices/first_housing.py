@@ -9,8 +9,8 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 from sklearn.metrics import mean_squared_error
 
-train_df = pd.read_csv("train.csv")
-test_df = pd.read_csv("test.csv")
+train_df = pd.read_csv("data/train.csv")
+test_df = pd.read_csv("data/test.csv")
 
 combine = [train_df, test_df]
 
